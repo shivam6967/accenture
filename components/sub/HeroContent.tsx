@@ -60,10 +60,17 @@ const HeroContent = () => {
         className="w-full h-full flex justify-center items-center"
       >
         <Image
-          src="/mainIconsdark.svg"
+          src="/service-3.png"
           alt="work icons"
-          height={650}
-          width={650}
+          height={2500}
+          width={2000}
+          style={{
+            marginBottom: "160px",
+            marginTop: "-95px",
+            height: "590px",
+            width: "940px",
+            borderBottomLeftRadius: "350px",
+          }}
         />
       </motion.div>
     </motion.div>

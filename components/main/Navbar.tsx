@@ -10,17 +10,22 @@ const Navbar = () => {
           href="#about-me"
           className="h-auto w-auto flex flex-row items-center"
         >
-          <Image
+          {/* <Image
             src="/logoAi.png"
             alt="logo"
-            width={70}
-            height={70}
+            width={200}
+            height={200}
             className="cursor-pointer hover:animate-slowspin"
-          />
+          /> */}
 
-          {/* <span className="font-bold ml-[10px] hidden md:block text-gray-300">
-            WebChain Dev
-          </span> */}
+          <span
+            style={{
+              fontSize: "20px",
+            }}
+            className=" font-bold ml-[10px] hidden md:block text-gray-300"
+          >
+            AI NEXUS
+          </span>
         </a>
 
         <div className="w-[500px] h-full flex flex-row items-center justify-between md:mr-20">
